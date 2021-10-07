@@ -22,9 +22,7 @@ function UserTable(){
     },[])
     
     return(
-        isLoading ? 
-        <h3>Loading...</h3>
-        ?
+        
         user?.length > 0 && isLoading===false ? 
         (<div>
             <table>
@@ -51,11 +49,8 @@ function UserTable(){
                 </tbody>
             </table>
         </div>
-        ) : isLoading === true ? 
-        (
-            <h3>Loading....</h3>
-        ): (
-            <h3>No Data Found. Click add user to add data{user}</h3>
+        ) : (
+            <h3>Either no Data Found or Data is Loading. Click add user to add data or wait.</h3>
         )
         
     );
