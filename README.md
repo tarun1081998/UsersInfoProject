@@ -5,7 +5,7 @@ This is a basic project which have functionalities like
 -Edit user
 
 For frontend, React.Js is used
-For backend, DOtnet is used
+For backend, Dotnet is used
 Sql Server is used for Database
 
 ## Prerequisites
