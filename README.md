@@ -8,7 +8,7 @@ For frontend, React.Js is used
 For backend, DOtnet is used
 Sql Server is used for Database
 
-##Prerequisites
+## Prerequisites
 1. Sql server must be installed on the system [(https://docs.microsoft.com/en-us/dotnet/core/install/linux-ubuntu) -> (for ubuntu)]
 2. Dotnet ef core and its tools must be installed on the system [(https://docs.microsoft.com/en-us/ef/core/cli/dotnet) -> (for ubuntu)]
 3. Add dotnet ef core to path [(export PATH=$PATH:/home/{username}/.dotnet/tools) -> (for ubuntu)]
