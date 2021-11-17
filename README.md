@@ -20,11 +20,11 @@ Sql Server is used for Database
 
 2. navigate to "dotnetProject" folder
 3. change the connectionstring in appsettings.json (change server, user id, password) according to your sql server.
-4. run following command 
--- $ dotnet ef update database
--- $ dotnet run
+4. run following command   
+-- $ dotnet ef update database  
+-- $ dotnet run  
 Above command will start the api project
 4. navigate to "first-app" folder
-5. run following commands
--- $ npm i react-scripts
--- $ npm start
+5. run following commands  
+-- $ npm i react-scripts  
+-- $ npm start  
